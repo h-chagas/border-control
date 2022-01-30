@@ -7,8 +7,11 @@ function pesquisar() {
         paxReply.value == 'English' || 
         paxReply.value == 'english' ||
         paxReply.value == 'UK' ||
+        paxReply.value == 'Uk' ||
         paxReply.value == 'uk' ||
-        paxReply.value == 'United Kingdom'
+        paxReply.value == 'United Kingdom' ||
+        paxReply.value == 'United kingdom' ||
+        paxReply.value == 'united kingdom' 
         ) 
         {
         res.innerHTML = 'Welcome back!';
